@@ -1,9 +1,66 @@
-baseURL = "http://blog.yubari-exp.dev/"
-languageCode = "ja-jp"
+baseURL = "https://blog.yubari-exp.dev"
 title = "実験ノート別冊"
+description = "FYI. from 「夕張の実験ノート」"
+author = "nekgoro"
+copyright = "Copyright © 2021, nekogoro; all rights reserved."
+paginate = 3
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+googleAnalytics = ""
+disqusShortname = ""
 theme = "simplog"
-canonifyurls = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 40
 
 [taxonomies]
-  category = 'categories'
-  tag = 'tags'
+  category = "categories"
+  tag = "tags"
+  archive = "archives"
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[params]
+  subtitle = ""
+  colorTheme = "default"
+  description = "FYI. from 「夕張の実験ノート」"
+  twitter = ""
+  customCSS = ""
+  adobeFontsKitId = ""
+  headerImagePath = ""
+
+  [params.enabled]
+    comment = true
+    summary = false
+    toc = true
