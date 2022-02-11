@@ -5,3 +5,5 @@ theme = "simplog"
 [taxonomies]
 tag = "tags"
 categories = "categories"
+publishDir = "docs"
+canonifyurls = true
