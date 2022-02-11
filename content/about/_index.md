@@ -8,3 +8,6 @@ draft: false
     * nekogoro
 * 運営サイト
     * [夕張の実験ノート](https://yubari-exp.dev/)
+* SNS
+    * [艦これ丼](https://kancolle.social/@nekogoro/)
+    * [fedibird](https://fedibird.com/@nekogoro)
