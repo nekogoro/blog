@@ -2,7 +2,7 @@
 title: "All life is an experiment (2nd)."
 date: 2022-02-12T01:13:12+09:00
 categories: [ "diary" ]
-draft: true
+draft: false
 ---
 
 またもや唐突にブログを始める。私のこの手の思いつきは三日坊主なのだけど、そこは割り切ってやろうと思う。
