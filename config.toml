@@ -2,8 +2,9 @@ baseURL = "http://blog.yubari-exp.dev/"
 languageCode = "ja-jp"
 title = "実験ノート別冊"
 theme = "simplog"
+publishDir = "docs"
+canonifyurls = true
+
 [taxonomies]
 tag = "tags"
 categories = "categories"
-publishDir = "docs"
-canonifyurls = true
