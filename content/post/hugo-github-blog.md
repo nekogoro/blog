@@ -3,7 +3,7 @@ title: "思いつきで Blog を作るまで"
 date: 2022-02-12T10:44:44+09:00
 tags: ["tech"]
 categories: ["diary"]
-draft: true
+draft: false
 ---
 
 昨晩（早朝？）にやったことまとめ
